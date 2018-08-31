@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Test Suite">
+	<test name="Regression Testing">
+
+		<packages>
+			<package name="com.tests.homeModule.*"></package>
+			<package name="com.tests.signUpModule.*"></package>
+			<package name="com.tests.loginModule.*"></package>
+			<package name="com.tests.forgetPasswordModule.*"></package>
+		</packages>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
